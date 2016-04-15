@@ -1,0 +1,39 @@
+.center-block {
+    width: 400px;
+}
+.container {
+	position: relative;
+}
+.container h3 {
+	background: transparent url('../images/kairos_logo.jpg') no-repeat left center;
+	background-size: 40px;
+	width: 337px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.ui-container p {
+	text-align: center;
+}
+#processing-spinner {
+	display: none; 
+	width: 218px; 
+	height: 118px; 
+	margin: 0 auto; 
+	background: transparent url('../images/processing.gif');
+}
+#highcharts-containers {
+	width: 1000px; 
+	margin: 8px auto;
+	display: none;
+}
+#highcharts-containers > div {
+	width: 1000px; 
+	height: 120px;
+}
+#highcharts-containers p {
+	font-size: 20px;
+	font-weight: bold;
+	color: #ff0000;
+	text-align: center;
+	margin: 20px 0;
+}
